@@ -1,0 +1,88 @@
+{
+  "babies": [
+    {
+      "id": "1",
+      "titulo": "Bodies",
+      "descripcion": "Cálidos y cómodos, nuestros bodies son la prenda ideal para mantener a tu bebé abrigado y a la moda. Con materiales suaves y cierres prácticos, son perfectos para el día a día.",
+      "precio": 15,
+      "img": "https://img.freepik.com/fotos-premium/monos-bebe-neutros-lindos-conjunto-ropa-ninos-moda-recien-nacida-endecha-plana-vista-superior_479776-4354.jpg?semt=ais_hybrid"
+    },
+    {
+      "titulo": "Pijamas",
+      "descripcion": "Nuestros pijamas aseguran noches de sueño reparador. Con diseños adorables y tejidos transpirables, tu pequeño disfrutará de la máxima comodidad mientras duerme.",
+      "precio": 20,
+      "img": "https://img.freepik.com/fotos-premium/ropa-accesorios-bebe-sobre-fondo-madera_392895-395175.jpg?semt=ais_hybrid",
+      "id": "2"
+    },
+    {
+      "titulo": "Camisetas de colores",
+      "descripcion": "Las camisetas divertidas y coloridas son un básico en el armario de tu bebé. Con estampados únicos y tejidos suaves, son perfectas para cualquier actividad.",
+      "precio": 20,
+      "img": "https://t4.ftcdn.net/jpg/07/05/14/49/240_F_705144926_MBW1Y7tjJZEruTU3r3ITgG3ka3HvykI4.jpg",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "titulo": "Baberos",
+      "descripcion": "Mantén a tu bebé limpio y elegante con nuestros baberos coloridos. Diseñados para absorber derrames y manchas, son el complemento perfecto para las comidas.",
+      "precio": 10,
+      "img": "https://img.freepik.com/premium-psd/fabric-baby-bib-branding-mockup_47987-19099.jpg?w=900"
+    },
+    {
+      "id": "5",
+      "titulo": "Medias",
+      "descripcion": "Las medias suaves y acogedoras son esenciales para mantener los pies de tu bebé calientitos. Disponibles en varios colores y estilos, son perfectas para cualquier ocasión.",
+      "precio": 12,
+      "img": "https://img.freepik.com/foto-gratis/calcetines-ninos-lindos-aislados-sobre-fondo-blanco_93675-130277.jpg?semt=ais_hybrid"
+    },
+    {
+      "id": "6",
+      "titulo": "Pantalones",
+      "descripcion": "Nuestros pantalones combinan estilo y comodidad. Con elásticos ajustables y tejidos duraderos, son ideales para que tu pequeño explore el mundo con libertad.",
+      "precio": 15,
+      "img": "https://img.freepik.com/foto-gratis/vista-frontal-lindos-pantalones-bebe-accesorios_23-2148415533.jpg?semt=ais_hybrid"
+    },
+    {
+      "id": "7",
+      "titulo": "Gorros",
+      "descripcion": "Protege a tu bebé del frío con nuestros gorros adorables. Hechos de materiales suaves y cálidos, son el accesorio ideal para completar cualquier look.",
+      "precio": 25,
+      "img": "https://t4.ftcdn.net/jpg/06/87/86/19/240_F_687861903_TuuacoKnSFORvBdFle1lPHr5edvFGvPi.jpg"
+    },
+    {
+      "id": "8",
+      "titulo": "Enterizos",
+      "descripcion": "Descubre nuestros enterizos, la opción perfecta para mantener a tu bebé cómodo y estiloso. Confeccionados en suaves tejidos, ofrecen facilidad para vestir y desvestir. Tu pequeño lucirá encantador en cualquier ocasión.",
+      "precio": 40,
+      "img": "https://img.freepik.com/foto-gratis/vista-superior-lindo-bebe-peluche_23-2150573675.jpg?semt=ais_hybrid"
+    },
+    {
+      "id": "9",
+      "titulo": "Conjuntos",
+      "descripcion": "Nuestros conjuntos están diseñados para ofrecer la máxima comodidad y estilo. Cada conjunto incluye piezas perfectamente coordinadas que permiten a tu bebé moverse libremente mientras se ve adorable.",
+      "precio": 45,
+      "img": "https://t4.ftcdn.net/jpg/03/20/63/75/240_F_320637544_zRDuKFyEA3JCSYkTqC2yBVG1l9SAHRz7.jpg"
+    },
+    {
+      "id": "10",
+      "titulo": "Prendas en Lana",
+      "descripcion": "Envuelve a tu bebé en calidez con nuestras prendas de lana. Suaves y acogedoras, estas prendas son perfectas para mantener a tu pequeño abrigado durante los días fríos. Con diseños elegantes y funcionales.",
+      "precio": 45,
+      "img": "https://img.freepik.com/foto-gratis/vista-superior-ropa-bebe-lana-chupete-mesa-madera_23-2147900741.jpg?semt=ais_hybrid"
+    },
+    {
+      "id": "11",
+      "titulo": "Zapatos",
+      "descripcion": "Descubre la colección de zapatos para bebés, diseñados para brindar comodidad y estilo en cada paso. Con suela antideslizante y materiales suaves.",
+      "precio": 30,
+      "img": "https://img.freepik.com/foto-gratis/concepto-bebe-composicion-zapatos_23-2147665777.jpg?semt=ais_hybrid"
+    },
+    {
+      "id": "12",
+      "titulo": "Pañales de algodón",
+      "descripcion": "Opta por la sostenibilidad con nuestros pañales reutilizables de algodón. Suaves, absorbentes y fáciles de limpiar, están diseñados para cuidar la piel de tu bebé mientras cuidas del planeta.",
+      "precio": 45,
+      "img": "https://t4.ftcdn.net/jpg/03/35/88/91/240_F_335889159_zEdPkFdJPoyiPp3qwX3WoIWXUjUYYVBN.jpg"
+    }
+  ]
+}

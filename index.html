@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - Baby Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css"> <!-- Enlaza CSS -->
+</head>
+<body>
+    <div class="modal">
+        <div class="modal__body">
+            <header class="modal__header">
+                <h2>Agregar Producto</h2>
+                <button class="cerrar">
+                    <img src="./imagenes/x.svg" alt="Cerrar">
+                </button>
+            </header>
+            <form class="form" id="form">
+                <div>
+                    <label for="titulo">Título</label>
+                    <input type="text" placeholder="Título" name="titulo" required>
+                </div>
+                <div>
+                    <label for="descripcion">Descripción</label>
+                    <input type="text" placeholder="Descripción" name="descripcion" required>
+                </div>
+                <div>
+                    <label for="precio">Precio</label>
+                    <input type="number" placeholder="Precio" name="precio" required>
+                </div>
+                <div>
+                    <label for="img">Imagen</label>
+                    <input type="text" placeholder="URL de la imagen" name="img" required>
+                </div>
+                <input type="submit" value="Agregar Producto">
+                <button type="button" id="limpiar-formulario">Limpiar formulario</button>
+            </form>
+        </div>
+    </div>
+
+    <header>
+        <div class="encabezado">
+            <img class="logo" src="./imagenes/logo.txt" alt="Logo de AluraGeek">
+            <div class="search-container">
+                <input class="header__input" type="text" id="search-input" placeholder="Buscar productos...">
+                <button id="search-button" alt="Icono de búsqueda"></button>
+            </div>
+            
+            <div class="button-group">
+                <button class="mostrar__todo" id="show-all-button"><img class="icono" src="./imagenes/todo.svg" alt="MostrarTodo">Mostrar Todo</button>
+                <!--<button class="mostrar__favoritos" id="show-favorites-button"><img class="icono" src="./imagenes/heart-black.svg" alt="MostrarFavoritos">Mostrar Favoritos</button>-->
+            </div>
+
+            <div class="button">
+                <button class="cuenta"><img class="icono" src="./imagenes/account.svg" alt="Cuenta">Cuenta</button>
+                <button class="carrito"><img class="icono" src="./imagenes/cart.svg" alt="Carrito">Carrito</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="slogan__card">
+            <div class="slogan__card__promo">
+                <h1 class="titulo">BABY SHOP</h1>
+                <p class="texto">Descubre nuestra encantadora colección de ropa para bebés, diseñada para brindar comodidad y estilo. Desde bodies suaves hasta adorables pijamas, cada prenda está hecha con materiales de alta calidad que cuidan la delicada piel de tu pequeño.</p>
+                <button class="boton__compra" onclick="scrollToProducts()">Comprar Ahora</button>
+            </div>
+            <div class="slogan__card__imagen">
+                <img class="imagen__bebe" src="./imagenes/baby.txt" alt="Imagen de bebé">
+            </div>
+        </section>
+
+        <!-- SECCIÓN PRODUCTOS -->
+        <div class="titulo__producto">
+            <h1>PRODUCTOS</h1>
+            <p class="tus-favoritos" id="contador-favoritos">Tus Favoritos: 0</p>
+            <button id="mostrar-modal">Agregar Producto</button>
+        </div>
+
+        <section class="productos__card" id="productos__card">
+            <!-- Aquí se agregarán los productos dinámicamente -->
+        </section>
+
+    </main>
+
+    <div class="confirmacion" id="confirmacion-eliminar">
+        <p id="mensaje-confirmacion"></p>
+        <button id="btn-si">Sí</button>
+        <button id="btn-no">No</button>
+    </div>
+
+    <div class="footer__area">
+        <div class="footer__top">
+            <div class="footer__columns">
+                <img src="./imagenes/logo.txt" alt="VISA" width="150">
+                <div class="footer__payments">
+                    <h2 class="footer__menu-titulo">Pagos Aceptados</h2>
+                    <div class="footer__payments-metodos">
+                        <div class="payment__single-item">
+                            <img class="pagos" src="./imagenes/visa.svg" alt="VISA" width="40">
+                        </div>
+                        <div class="payment__single-item">
+                            <img class="pagos" src="./imagenes/mastercard.svg" alt="MasterCard" width="40">
+                        </div>
+                        <div class="payment__single-item">
+                            <img class="pagos" src="./imagenes/apple-pay.svg" alt="Apple Pay" width="40">
+                        </div>
+                        <div class="payment__single-item">
+                            <img class="pagos" src="./imagenes/google-pay.svg" alt="Google Pay" width="40">
+                        </div>
+                        <div class="payment__single-item">
+                            <img class="pagos" src="./imagenes/amazon.svg" alt="Amazon" width="40">
+                        </div>
+                        <div class="payment__single-item">
+                            <img class="pagos"src="./imagenes/paypal.svg" alt="PayPal" width="40">
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 class="footer__menu-titulo">Envíos</h2>
+                    <div class="footer__pack">
+                        <div class="footer__pack-envios">
+                            <img class="envios" src="./imagenes/DHL.png" alt="DHL" width="50">
+                        </div>
+                        <div class="footer__pack-envios">
+                            <img class="envios" src="./imagenes/UPS.svg" alt="UPS" width="50">
+                        </div>
+                        <div class="footer__pack-envios">
+                            <img class="envios" src="./imagenes/Servientrega.jpeg" alt="Servientrega" width="50">
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 class="footer__menu-titulo">Redes Sociales</h2>
+                    <div class="footer__redes">
+                        <div class="footer__redes-logo">
+                            <a href="https://github.com/AlejitaToloza" target="_blank" rel="noopener noreferrer">
+                            <img class="redes" src="./imagenes/github-icon.svg" alt="GitHub" width="50"></a>
+                        </div>
+                        <div class="footer__redes-logo">
+                            <a href="https://linkedin.com/in/judy-toloza-ortiz" target="_blank" rel="noopener noreferrer">
+                            <img class="redes" src="./imagenes/linkedin-icon.svg" alt="LinkedIn" width="50"></a>
+                        </div>
+                        <div class="footer__redes-logo">
+                            <img class="redes" src="./imagenes/facebook-icon.svg" alt="Facebook" width="50">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Elaborado por: Alejandra Toloza</p>
+            <p>ALURA LATAM - PROGRAMA ONE G7</p>
+            <p>2024</p>
+        </div>
+
+    </div>
+
+
+    <script>
+        function scrollToProducts() {
+            const productosCard = document.getElementById('productos__card');
+            if (productosCard) {
+                productosCard.scrollIntoView({ 
+                    behavior: 'smooth' // Desplazamiento suave
+                });
+            }
+        }
+    </script>
+
+    <script defer src="./js/code.js"></script>
+</body>
+</html>
