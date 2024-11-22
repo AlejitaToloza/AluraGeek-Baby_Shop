@@ -47,7 +47,7 @@ Para visualizar todos los productos nuevamente se debe dar `Click` sobre el bot√
 
 _______________________________________________________________________
 
-<h2>AGREGAR UN RPODUCTO</h2>
+<h2>AGREGAR UN PRODUCTO</h2>
 
 Para agregar un producto puede dar `Click` en el bot√≥n `Agregar Producto`
 
