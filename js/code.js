@@ -1,5 +1,5 @@
 let count = 0; // Contador de productos favoritos
-const API = "https://6733c9bea042ab85d1180070.mockapi.io/babies"; // URL de la API
+const API = "https://6733c9bea042ab85d1180070.mockapi.io/BabyShop"; // URL de la API
 
 
 function scrollToProducts() {
